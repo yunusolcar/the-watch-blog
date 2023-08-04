@@ -17,3 +17,11 @@ exports.getContactPage = (req, res) => {
 exports.getPostDetailsPage = (req, res) => {
      res.status(200).render('post-details')
 }
+
+exports.getAddPost = (req, res) => {
+     res.status(200).render('add')
+}
+
+exports.getCreatePost = (req, res) => {
+  console.log(req.body)
+}
