@@ -54,6 +54,7 @@ h6 {
 
 .main-button a:hover {
 	background-color: #fb9857;
+	border-radius: 10px;
 }
 
 .heading-page {
@@ -892,7 +893,7 @@ footer p a:hover {
 	font-weight: 900;
 	letter-spacing: 0.5px;
 	color: #20232e;
-	border-bottom: 1px solid #fc6e6e;
+	border-bottom: 1px solid #f48840;
 	padding-bottom: 15px;
 	margin-bottom: 25px;
 }
@@ -950,6 +951,7 @@ input[type="file"] {
 .contact-us .contact-form button {
 	display: inline-block;
 	background-color: #f48840;
+	border-radius: 10px;
 	color: #fff;
 	font-size: 13px;
 	font-weight: 500;
