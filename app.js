@@ -1,6 +1,5 @@
 const express = require('express')
 const pageRoute = require('./routes/pageRoute')
-
 const app = express()
 
 //Middleware
@@ -14,7 +13,7 @@ app.use(express.json())
 app.set('view engine', 'ejs')
 
 //Routes
-app.use('/', pageRoute)
+app.use('/', pageRoute);
 
 //Port
 const port = 3000
